@@ -1,19 +1,17 @@
 {
   "canisters": {
     "portfolio_template_backend": {
+      "id": "tn6uo-pqaaa-aaaak-quenq-cai",
       "main": "src/portfolio_template_backend/main.mo",
       "type": "motoko"
     },
     "portfolio_template_frontend": {
+      "id": "tyzfd-oyaaa-aaaak-queoa-cai",
       "dependencies": [
         "portfolio_template_backend"
       ],
-      "frontend": {
-        "entrypoint": "src/portfolio_template_frontend/src/index.html"
-      },
       "source": [
-        "src/portfolio_template_frontend/assets",
-        "dist/portfolio_template_frontend/"
+        "src/portfolio_template_frontend/assets"
       ],
       "type": "assets"
     }
